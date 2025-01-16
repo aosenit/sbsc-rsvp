@@ -30,8 +30,10 @@ export default function RegistrationFormPage() {
         router.push("/success");
       }
     } catch (error) {
-      console.log(error);
-      toast.error("Registration Failed, please retry...");
+      console.log(error?.response?.data?.message);
+      toast.error(error?.response?.data?.message, {
+        className: "bg-red-500 text-white",
+      });
     }
   };
 
