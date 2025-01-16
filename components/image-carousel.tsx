@@ -31,7 +31,7 @@ export function ImageCarousel({ images }: ImageCarouselProps) {
         <img
           src={images[currentIndex]?.src}
           alt={`Celebration moment ${currentIndex + 1}`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
       </div>
 

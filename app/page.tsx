@@ -7,12 +7,18 @@ import { Button } from "@/components/ui/button";
 import birthdayOne from "@/assets/images/car1.png";
 import birthdayTwo from "@/assets/images/car2.png";
 import birthdayThree from "@/assets/images/car3.png";
+import birthdayFour from "@/assets/images/rsvp-stanley.png";
 import { useRouter } from "next/navigation";
 import { Layout } from "@/components/layouts/Layout";
 import { PoweredBy } from "@/components/PoweredBy";
 import { MobileBg } from "@/components/MobileBg";
 
-export const CAROUSEL_IMAGES = [birthdayOne, birthdayTwo, birthdayThree];
+export const CAROUSEL_IMAGES = [
+  birthdayOne,
+  birthdayTwo,
+  birthdayThree,
+  birthdayFour,
+];
 
 export default function Page() {
   const router = useRouter();
@@ -26,19 +32,22 @@ export default function Page() {
           <ImageCarousel images={CAROUSEL_IMAGES} />
 
           <div className="text-center space-y-4">
-            <h1 className="text-3xl font-bold text-custom-brown-dark">
-              It’s Titi’s 40th 🥳
+            <h1
+              className="text-3xl font-bold text-custom-brown-dark great-vibes-regular"
+              style={{ fontFamily: "cursive" }}
+            >
+              Aged to Perfection
             </h1>
+            <h3 className="text-center text-xl">#Tila4.0</h3>
             <p className="text-gray-600">
               You have been invited to
               <br />
               <span className=" font-semibold uppercase text-base my-1">
                 {" "}
-                TITILAYO ADEWUMI&apos;S BIRTHDAY PARTY.
+                TITILAYO ADEWUMI&apos;S BIRTHDAY CELEBRATION.
               </span>
               <br />
-              We&apos;d love to celebrate with you! Let us know if you can make
-              it.
+              Let us know if you can make it.
             </p>
             <div className="space-y-2">
               <Button
@@ -55,9 +64,9 @@ export default function Page() {
                 No, I can&apos;t attend
               </Button>
             </div>
-            <p className="text-sm">
-              <span className="text-red-500">IMPORTANT:</span> This invite
-              expires on the 26/01/2024 by 12:00pm
+            <p className="text-sm italic">
+              <span className="text-red-500">IMPORTANT:</span> This invite is
+              for ADULTS only. Expires on the 20/01/2024 by 12:00pm
             </p>
 
             <div className="flex justify-center pt-20">

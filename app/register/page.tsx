@@ -31,9 +31,12 @@ export default function RegistrationFormPage() {
       }
     } catch (error) {
       console.log(error?.response?.data?.message);
-      toast.error(error?.response?.data?.message, {
-        className: "bg-red-500 text-white",
-      });
+      toast.error(
+        error?.response?.data?.message || "An error occured, please retry",
+        {
+          className: "bg-red-500 text-white",
+        }
+      );
     }
   };
 

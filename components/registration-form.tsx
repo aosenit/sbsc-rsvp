@@ -146,7 +146,7 @@ export function RegistrationForm({
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    {menuItems?.[0]?.items.map((starter: any) => (
+                    {menuItems?.[2]?.items.map((starter: any) => (
                       <SelectItem key={starter?.uuid} value={starter?.uuid}>
                         {starter?.name}
                       </SelectItem>
@@ -175,7 +175,7 @@ export function RegistrationForm({
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    {menuItems?.[1]?.items.map((starter: any) => (
+                    {menuItems?.[0]?.items.map((starter: any) => (
                       <SelectItem key={starter?.uuid} value={starter?.uuid}>
                         {starter?.name}
                       </SelectItem>
@@ -203,7 +203,7 @@ export function RegistrationForm({
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    {menuItems?.[2]?.items.map((starter: any) => (
+                    {menuItems?.[1]?.items.map((starter: any) => (
                       <SelectItem key={starter?.uuid} value={starter?.uuid}>
                         {starter?.name}
                       </SelectItem>
