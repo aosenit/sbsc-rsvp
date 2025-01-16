@@ -18,7 +18,7 @@ export default function Page() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-[#F2F2F2]   ">
+    <div className="min-h-screen bg-[#F2F2F2]   lg:py-12 lg:px-4">
       <MobileBg />
 
       <Layout>
