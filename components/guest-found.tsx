@@ -6,7 +6,7 @@ import { Skeleton } from "./ui/skeleton";
 
 export function GuestFound({ guest, isLoading }: any) {
   return (
-    <Card className="max-w-md mx-auto bg-white p-6 rounded-lg">
+    <Card className="max-w-lg mx-auto bg-white p-6 rounded-lg">
       <div className="flex flex-col items-center mb-6">
         <PoweredBy />
         <h1 className="text-2xl font-semibold text-center">Guest Found</h1>

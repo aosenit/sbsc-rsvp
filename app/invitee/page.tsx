@@ -5,11 +5,11 @@ import { useFetchPostData } from "@/hooks/use-apis";
 import { QRCODEURL } from "@/lib/api";
 
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function GuestFoundPage() {
   const router = useRouter();
-
-  const location = window.location.href;
+  const [location, setLocation] = useState("");
 
   const payload = {
     qr_code: location,
@@ -21,8 +21,14 @@ export default function GuestFoundPage() {
     router.push("/error");
   }
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setLocation(window.location.href);
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4">
+    <div className="min-h-screen bg-gray-50 lg:py-12 lg:px-4">
       <GuestFound
         guest={QRScannerState?.data?.data}
         isLoading={QRScannerState.isPending}
