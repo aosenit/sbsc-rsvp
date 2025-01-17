@@ -2,28 +2,27 @@ export const MENU_OPTIONS = {
   starters: [
     "Signature Lemon Prawn Cocktail",
     "Garden Fresh Salad",
-    "Creamy Mushroom Soup"
+    "Creamy Mushroom Soup",
   ],
   mainCourses: [
     "Tender Braised Lamb Shank served with Roasted Vegetables",
     "Grilled Salmon with Herb Butter",
-    "Vegetarian Pasta Primavera"
+    "Vegetarian Pasta Primavera",
   ],
   desserts: [
     "Lush Glazed Chocolate Cake served with Berry Compote",
     "Classic Crème Brûlée",
-    "Fresh Fruit Pavlova"
-  ]
+    "Fresh Fruit Pavlova",
+  ],
 };
 
 export const BANK_DETAILS = {
   accountName: "Titilayo Adewumi",
   accountNumber: "8174435843",
-  bank: "Opay"
+  bank: "Opay",
 };
 
 export const CHARITIES = [
   "Sickle Cell Foundation Nigeria",
-  "Help Meet A Need Charity"
+  "Helpmeet A Need Global Foundation",
 ];
-

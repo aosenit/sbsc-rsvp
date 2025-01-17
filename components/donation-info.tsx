@@ -10,7 +10,7 @@ export function DonationInfo({ className = "" }: DonationInfoProps) {
     <div className={`space-y-4 text-center text-gray-600 ${className}`}>
       <ul className="space-y-1 font-bold  text-black">
         <li>• Sickle Cell Foundation Nigeria</li>
-        <li>• Help Meet A Need Charity.</li>
+        <li>• Helpmeet A Need Global Foundation</li>
       </ul>
       <p>Donations will be matched 1:1 by Titilayo to double their impact.</p>
       <div

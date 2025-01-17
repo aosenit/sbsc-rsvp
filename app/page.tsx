@@ -65,8 +65,8 @@ export default function Page() {
               </Button>
             </div>
             <p className="text-sm italic">
-              <span className="text-red-500">IMPORTANT:</span> This invite is
-              for ADULTS only. Expires on the 20/01/2024 by 12:00pm
+              <span className="text-red-500">IMPORTANT:</span> This event is
+              strictly for ADULTS. Please respond by Jan 20 2025 by 2pm
             </p>
 
             <div className="flex justify-center pt-20">

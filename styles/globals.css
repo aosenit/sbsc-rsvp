@@ -2,18 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @font-face {
   font-family: "AtypDisplay-Regular";
   src: url("../assets/font/AvertaStd-Regular.ttf");
 }
 
-.great-vibes-regular {
-  font-family: "Great Vibes", serif !important;
-  font-weight: 400;
-  font-style: normal;
-}
 
 
 body {
