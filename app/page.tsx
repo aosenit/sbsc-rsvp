@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation";
 import { Layout } from "@/components/layouts/Layout";
 import { PoweredBy } from "@/components/PoweredBy";
 import { MobileBg } from "@/components/MobileBg";
+import { Calendar, Clock } from "lucide-react";
 
 export const CAROUSEL_IMAGES = [
   birthdayOne,
@@ -49,6 +50,17 @@ export default function Page() {
               <br />
               Let us know if you can make it.
             </p>
+            <div className="flex flex-col items-center py-2 gap-2">
+              <div className="flex gap-2 items-center">
+                <Calendar className="text-gray-500" />
+                <h3 className="">February 1, 2025</h3>
+              </div>
+              <div className="flex gap-2 items-center">
+                <Clock className="text-gray-500" />
+
+                <h3 className="">3:00 PM</h3>
+              </div>
+            </div>
             <div className="space-y-2">
               <Button
                 onClick={() => router.push("/register")}
