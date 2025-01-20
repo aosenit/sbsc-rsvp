@@ -13,6 +13,7 @@ import { Layout } from "@/components/layouts/Layout";
 import { PoweredBy } from "@/components/PoweredBy";
 import { MobileBg } from "@/components/MobileBg";
 import { Calendar, Clock } from "lucide-react";
+import Link from "next/link";
 
 export const CAROUSEL_IMAGES = [
   birthdayOne,
@@ -61,20 +62,17 @@ export default function Page() {
                 <h3 className="">3:00 PM</h3>
               </div>
             </div>
-            <div className="space-y-2">
-              <Button
-                onClick={() => router.push("/register")}
-                className="w-full bg-custom-brown-dark hover:bg-custom-brown-light"
-              >
-                Yes, I will attend
-              </Button>
-              <Button
-                onClick={() => router.push("/decline")}
-                variant="outline"
-                className="w-full"
-              >
-                No, I can&apos;t attend
-              </Button>
+            <div className="grid gap-2">
+              <Link href={"/register"}>
+                <Button className="w-full bg-custom-brown-dark hover:bg-custom-brown-light">
+                  Yes, I will attend
+                </Button>
+              </Link>
+              <Link href={"/decline"}>
+                <Button variant="outline" className="w-full">
+                  No, I can&apos;t attend
+                </Button>
+              </Link>
             </div>
             <p className="text-sm italic text-[#344054]">
               <span className="text-red-500">IMPORTANT:</span> This Invite
