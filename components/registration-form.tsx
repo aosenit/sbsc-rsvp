@@ -224,6 +224,15 @@ export function RegistrationForm({
           {isSubmitting ? "Submiting..." : "Submit"}
         </Button>
       </form>
+
+      <p className="text-sm italic pt-6 text-[#344054]">
+        <span className="text-red-500">IMPORTANT:</span> If you experience any
+        difficulty submitting this form, kindly send an email to
+        <a className="text-blue-500 ml-1" href="mailto:oakinshola@sbsc.com">
+          oakinshola@sbsc.com.
+        </a>
+        The email should have your name, email, phone number and menu selection.
+      </p>
     </Form>
   );
 }

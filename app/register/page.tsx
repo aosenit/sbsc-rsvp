@@ -41,7 +41,7 @@ export default function RegistrationFormPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 grid items-center">
+    <div className="min-h-screen bg-gray-50 grid items-center lg:py-12 lg:px-4">
       <Layout>
         <RegistrationForm
           onSubmit={handleFormSubmit}

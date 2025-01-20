@@ -25,7 +25,7 @@ export default function Page() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-[#F2F2F2]   lg:py-12 lg:px-4">
+    <div className="min-h-screen bg-[#F2F2F2]  lg:py-12 lg:px-4">
       <MobileBg />
 
       <Layout>
@@ -76,9 +76,9 @@ export default function Page() {
                 No, I can&apos;t attend
               </Button>
             </div>
-            <p className="text-sm italic">
+            <p className="text-sm italic text-[#344054]">
               <span className="text-red-500">IMPORTANT:</span> This event is
-              strictly for ADULTS. Please respond by Jan 20 2025 by 2pm
+              strictly for ADULTS. Please respond by Jan 20 2025 by 5pm
             </p>
 
             <div className="flex justify-center pt-20">
