@@ -76,7 +76,7 @@ export default function Page() {
             </div>
             <p className="text-sm italic text-[#344054]">
               <span className="text-red-500">IMPORTANT:</span> This Invite
-              expires on the 22/01/2025 by 5:00pm.
+              expires on the 24/01/2025 by 5:00pm.
             </p>
 
             <div className="flex justify-center pt-20">
