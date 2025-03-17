@@ -54,7 +54,7 @@ export default function Page() {
             <div className="flex flex-col items-center py-2 gap-2">
               <div className="flex gap-2 items-center">
                 <Calendar className="text-gray-500" />
-                <h3 className="">February 1, 2025</h3>
+                <h3 className="">April 12, 2025</h3>
               </div>
               <div className="flex gap-2 items-center">
                 <Clock className="text-gray-500" />
@@ -76,7 +76,7 @@ export default function Page() {
             </div>
             <p className="text-sm italic text-[#344054]">
               <span className="text-red-500">IMPORTANT:</span> This Invite
-              expires on the 24/01/2025 by 5:00pm.
+              expires on the 30/03/2025 by 5:00pm.
             </p>
 
             <div className="flex justify-center pt-20">
